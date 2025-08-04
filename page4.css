@@ -5,30 +5,18 @@
 
 body{
     background: linear-gradient(to bottom, #FFFFFF, #2646D5);
-    height: 932px;
-    width: 430px;
+    height: 104vh;
+    width: 25.75rem;
     font-family: 'Anton';
     position: relative;
-    overflow: hidden;
-    margin: 0 auto;
 }
 
-main .image img{
+main .step{
     position: absolute;
-    width: 682px;
-    opacity: 51%;
-    top: 27%;
-    left: -65px;  
-    z-index: -1;
-    object-fit: cover;
+    top: 50px;
+    left: 175px;
 }
 
-main {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
 main .step{
     position: absolute;
     background-color: #666;
@@ -36,7 +24,7 @@ main .step{
     width: 61px;
 height: 23px;
 opacity: 0.91;
-top: 751px;
+top: 536px;
 left: 175px;
 border-radius: 80px;
 font-size: 11px;
@@ -45,35 +33,33 @@ justify-items: center;
 padding-top: 4px;
 }
 
-footer .name{
+footer .text{
     position: absolute;
-    bottom: 50px;
+    bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
-
 footer #text{
     width: 360px;
     height: 75px;
-    position: relative;
-    opacity: 1;
-    border-radius: 116px;
-    border: 0px;
-    padding: 20px 0 30px 20px;
-    font-size: 24px;
     background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 116px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #353535;
+    padding: 0 30px;
     box-sizing: border-box;
+    transition: background-color 0.3s ease;
 }
 
-input::placeholder{
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #666;
-}
+footer #submit:hover{
+    background: rgba(255, 255, 255, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} 
