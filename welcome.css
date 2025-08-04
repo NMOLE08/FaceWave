@@ -5,10 +5,12 @@
 
 body{
     background: linear-gradient(to bottom, #FFFFFF, #2646D5);
-    height: 104vh;
-    width: 25.75rem;
+    height: 932px;
+    width: 430px;
     font-family: 'Anton';
     position: relative;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 .topbar{
@@ -43,7 +45,7 @@ main h1{
     top: 24.625rem;
     left: 1.625rem;
     font-weight: 400;
-    font-size: 8rem;
+    font-size: 6rem;
     line-height: 90%;
     background: linear-gradient(to bottom, rgba(255,255,255,0.9), rgba(255,255,255,0.1));
     -webkit-background-clip: text;
@@ -53,7 +55,7 @@ main h1{
 
 }
 
-footer .register{
+footer .start{
     position: absolute;
     top:87.66vh;
     left: 1.625rem;
