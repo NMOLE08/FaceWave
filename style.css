@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to bottom, #FFFFFF, #2646D5);
+    height: 104vh;
+    width: 412px;
+    font-family: 'Anton';
+    position: relative;
+}
+
+.topbar{
+    background-color: #2646D5;
+    height: 4.19vh;
+    width: 360px;
+    margin: 29px 0 0 26px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar p{
+    color: #FFFFFF;
+    margin-left: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    size: 20px;
+}
+
+.circle{
+    background-color: #FFFFFF;
+    height: 3.33vh;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+main h1{
+    position: absolute;
+    top:442px;
+    left: 26px;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 90%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+}
+
+footer .register{
+    position: absolute;
+    top:87.66vh;
+    left: 26px;
+    color: #FFFFFF;
+}
+
+footer button{
+    width: 360px;
+    height: 5.56vh;
+    border-radius: 27px;
+}
+footer button h1{
+    color: #838383;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+footer button:hover {
+    background-color: #838383;
+}
